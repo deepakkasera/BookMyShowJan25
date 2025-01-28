@@ -26,7 +26,7 @@ public class Booking extends BaseModel {
     private List<Payment> payments;
 
     @Enumerated(EnumType.ORDINAL) // Numeric
-    private BookingStatus bookingStatus;
+        private BookingStatus bookingStatus;
 }
 
 
